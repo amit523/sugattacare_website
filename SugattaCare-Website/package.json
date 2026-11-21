@@ -1,0 +1,8 @@
+{
+  "name": "sugatta-care-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sugatta Care Foundation website with Resend contact delivery",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

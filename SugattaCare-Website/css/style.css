@@ -4,6 +4,7 @@ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:en
 :root[data-theme="dark"]{--bg:#0E1B1C;--surface:#152728;--ink:#EAF2F1;--muted:#9DB4B3;--teal:#5CC0C2;--deep:#0A3235;--lav:#B9A6E6;--lav-soft:#221E33;--line:#27393A;--on-deep:#F2EEF8;color-scheme:dark}
 html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px)}
 *{box-sizing:border-box}
+main{display:flex;flex-direction:column}main>.hero{order:1}main>.strip{order:2}main>.band{order:3}main>#about{order:4}main>#work{order:5}main>#camps{order:6}main>#donate{order:7}main>#photos{order:8}main>#trust{order:9}main>#join{order:10}main>#contact{order:11}main>#faq{order:12}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 "Nunito Sans",system-ui,sans-serif}
 h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:600;line-height:1.15;margin:0 0 .5em;letter-spacing:-.01em}
 h1{font-size:clamp(2.4rem,6vw,4.4rem)}h2{font-size:clamp(1.8rem,3.6vw,2.7rem)}h3{font-size:1.3rem}

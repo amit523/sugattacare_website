@@ -171,6 +171,8 @@ section{padding:clamp(58px,7vw,92px) 0}
 @keyframes photo-drift{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 #about .two{align-items:start}
 #about .two>div{padding:clamp(8px,2vw,22px) 0}
+.mission-block{margin-top:18px;padding-top:28px;border-top:1px solid var(--line)}.mission-block .intro{max-width:780px}.mission-grid .card{height:100%}
+.legal-benefits{margin-top:42px;padding-top:28px;border-top:1px solid var(--line)}.section-label{max-width:680px;margin-bottom:18px}.section-label h3{margin:4px 0 4px;font-size:1.65rem}.section-label p{margin:0;color:var(--muted)}.legal-benefits .tax{margin-top:0}.legal-benefits .card{height:100%;position:relative}.legal-number{display:inline-block;color:var(--teal);font-size:.72rem;font-weight:800;letter-spacing:.12em;margin-bottom:12px}.legal-benefits .card h3{max-width:280px}
 .facts{border-radius:22px;box-shadow:0 14px 34px -28px rgba(18,63,60,.35)}
 .facts div{padding:22px 20px}
 .facts small{letter-spacing:.04em;text-transform:uppercase;font-size:.73rem}

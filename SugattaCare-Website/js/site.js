@@ -39,7 +39,9 @@ var KM={
 camp:function(){return["Ask a question","I would like to request a free health camp in my village. Place: ","मैं अपने गाँव में मुफ़्त स्वास्थ्य शिविर का अनुरोध करना चाहता/चाहती हूँ। जगह: "]},
 give:function(){return["Donate","I would like to give "+AMT[am]+" for \u201c"+D[cur][0]+"\u201d. Please share the bank or UPI details.","मैं \u201c"+DH[cur][0]+"\u201d के लिए "+AMT[am]+" देना चाहता/चाहती हूँ। कृपया बैंक या UPI विवरण भेजें।"]},
 advisor:function(){return["Advisor",ROLEMSG.Advisor[0],ROLEMSG.Advisor[1]]},
-member:function(){return["Member",ROLEMSG.Member[0],ROLEMSG.Member[1]]}};
+member:function(){return["Member",ROLEMSG.Member[0],ROLEMSG.Member[1]]},
+field:function(){return["Volunteer","I would like to volunteer during Sugatta Care field activities. My availability: ","मैं सुगत्ता केयर की मैदानी गतिविधियों में स्वयंसेवा करना चाहता/चाहती हूँ। मेरी उपलब्धता: "]},
+mentor:function(){return["Volunteer","I would like to become a skill mentor and teach practical skills to youth or women. My skills: ","मैं युवाओं या महिलाओं को व्यावहारिक हुनर सिखाने के लिए स्किल मेंटर बनना चाहता/चाहती हूँ। मेरे हुनर: "]}};
 document.querySelectorAll("[data-k]").forEach(function(a){a.onclick=function(e){e.preventDefault();var x=KM[a.dataset.k]();toContact(x[0],x[1],x[2])}});
 document.getElementById("role").onchange=function(){var t=document.querySelector("#f textarea");
 if(t.value.trim()===""||t.value===autoMsg){var p=ROLEMSG[this.value]||["",""];var m=L=="hi"?p[1]:p[0];t.value=m;autoMsg=m}};

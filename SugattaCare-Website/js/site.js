@@ -7,7 +7,7 @@ var A=[
 '<img class="p0" alt="A child holding a worn school book and pencil" src="assets/images/image-05.jpg">',
 '<img class="p1" alt="An elder woman sitting outside her home holding a clay cup" src="assets/images/image-06.jpg">',
 '<img class="p2" alt="A health worker caring for a newborn while a village family looks on" src="assets/images/image-07.jpg">',
-'<img class="p3" alt="Children planting a tree with Sugatta Care Foundation volunteers" src="assets/images/plantation-drive.png">'];
+'<img class="p3" alt="Children planting a tree with Sugatta Care Foundation volunteers" src="assets/images/plantation-drive.png?v=2">'];
 /* EDIT HERE: what each amount can do. Check these against your real costs. */
 var AMT=["₹500","₹1,000","₹2,500","₹5,000"];
 var O=[

@@ -45,8 +45,8 @@ section{padding:36px 0;scroll-margin-top:90px}
 .card p{color:var(--muted);margin:0}
 .intro{max-width:640px}.intro p{color:var(--muted);font-size:1.1rem}
 .alt{background:var(--lav-soft)}
-.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 12px}
-.tab{padding:11px 22px;border-radius:999px;border:2px solid var(--lav);background:transparent;color:var(--ink);font:700 .98rem "Nunito Sans",sans-serif;cursor:pointer}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 12px;position:relative;z-index:2}
+.tab{position:relative;z-index:3;padding:11px 22px;border-radius:999px;border:2px solid var(--lav);background:transparent;color:var(--ink);font:700 .98rem "Nunito Sans",sans-serif;cursor:pointer}
 .tab[aria-selected="true"]{background:var(--lav);color:#1b1230;border-color:var(--lav)}
 .panel{background:var(--surface);border-radius:20px;padding:22px;border:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:center}
 .panel h3{font-size:1.7rem}.panel p{color:var(--muted)}

@@ -21,7 +21,7 @@ nav{display:flex;gap:22px;align-items:center}nav a{color:var(--ink);text-decorat
 nav .btn{padding:9px 20px;color:#fff}
 @media(max-width:820px){nav a:not(.btn){display:none}}
 .wrap{max-width:1200px;margin:auto;padding:0 24px}
-section{padding:36px 0}
+section{padding:36px 0;scroll-margin-top:90px}
 .hero{padding:28px 0 36px;position:relative;overflow:hidden}
 .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
 .hero p.lead{font-size:1.2rem;color:var(--muted)}
